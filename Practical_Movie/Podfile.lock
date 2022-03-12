@@ -1,0 +1,26 @@
+PODS:
+  - ObjectMapper (4.2.0)
+  - SDWebImage (5.12.2):
+    - SDWebImage/Core (= 5.12.2)
+  - SDWebImage/Core (5.12.2)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - ObjectMapper
+  - SDWebImage
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - ObjectMapper
+    - SDWebImage
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  SDWebImage: 240e5c12b592fb1268c1d03b8c90d90e8c2ffe82
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 5fcb82de83736a9bd90a0e4ba09a3de326b17389
+
+COCOAPODS: 1.11.2

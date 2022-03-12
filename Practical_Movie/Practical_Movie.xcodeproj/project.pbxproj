@@ -21,6 +21,9 @@
 		18AD343027DC6BCF006F4C26 /* MovieListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AD342E27DC6BCF006F4C26 /* MovieListCell.xib */; };
 		18AD343227DC6D11006F4C26 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD343127DC6D11006F4C26 /* UIImageView+Extension.swift */; };
 		18AD343527DC73B2006F4C26 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD343427DC73B2006F4C26 /* Constant.swift */; };
+		18AD343727DC7ECC006F4C26 /* MovieDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD343627DC7ECC006F4C26 /* MovieDetailVC.swift */; };
+		18AD343927DC7FB3006F4C26 /* MovieDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD343827DC7FB3006F4C26 /* MovieDetailVM.swift */; };
+		18AD343B27DC8060006F4C26 /* MovieDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD343A27DC8060006F4C26 /* MovieDetailModel.swift */; };
 		1F417D11D8D0335D6AE3DFE3 /* Pods_Practical_Movie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E096786D3A6120D9F1794E2E /* Pods_Practical_Movie.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +45,9 @@
 		18AD342E27DC6BCF006F4C26 /* MovieListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListCell.xib; sourceTree = "<group>"; };
 		18AD343127DC6D11006F4C26 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		18AD343427DC73B2006F4C26 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		18AD343627DC7ECC006F4C26 /* MovieDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailVC.swift; sourceTree = "<group>"; };
+		18AD343827DC7FB3006F4C26 /* MovieDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailVM.swift; sourceTree = "<group>"; };
+		18AD343A27DC8060006F4C26 /* MovieDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailModel.swift; sourceTree = "<group>"; };
 		8EBAA701E015BB8FAD30430B /* Pods-Practical_Movie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practical_Movie.release.xcconfig"; path = "Target Support Files/Pods-Practical_Movie/Pods-Practical_Movie.release.xcconfig"; sourceTree = "<group>"; };
 		E096786D3A6120D9F1794E2E /* Pods_Practical_Movie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Practical_Movie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -117,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				18AD340F27DC5240006F4C26 /* MovieListVC.swift */,
+				18AD343627DC7ECC006F4C26 /* MovieDetailVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -125,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				18AD342427DC55C4006F4C26 /* MovieListVM.swift */,
+				18AD343827DC7FB3006F4C26 /* MovieDetailVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -134,6 +142,7 @@
 			children = (
 				18AD342627DC5A16006F4C26 /* RootModel.swift */,
 				18AD342827DC5F0B006F4C26 /* MovieModel.swift */,
+				18AD343A27DC8060006F4C26 /* MovieDetailModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -287,11 +296,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AD343927DC7FB3006F4C26 /* MovieDetailVM.swift in Sources */,
 				18AD342927DC5F0B006F4C26 /* MovieModel.swift in Sources */,
 				18AD341027DC5240006F4C26 /* MovieListVC.swift in Sources */,
 				18AD342F27DC6BCF006F4C26 /* MovieListCell.swift in Sources */,
 				18AD343227DC6D11006F4C26 /* UIImageView+Extension.swift in Sources */,
 				18AD340C27DC5240006F4C26 /* AppDelegate.swift in Sources */,
+				18AD343727DC7ECC006F4C26 /* MovieDetailVC.swift in Sources */,
+				18AD343B27DC8060006F4C26 /* MovieDetailModel.swift in Sources */,
 				18AD340E27DC5240006F4C26 /* SceneDelegate.swift in Sources */,
 				18AD342C27DC6A7F006F4C26 /* UIViewController+Extension.swift in Sources */,
 				18AD343527DC73B2006F4C26 /* Constant.swift in Sources */,

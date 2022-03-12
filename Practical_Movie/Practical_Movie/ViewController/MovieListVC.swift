@@ -85,9 +85,9 @@ extension MovieListVC: UITableViewDelegate,UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let controller = PostDetailImageViewController.getPostDetailImageVC()
-//        controller.objPost = arrPost[indexPath.row]
-//        APP_DELEGATE.navController.pushViewController(controller, animated: true)
+        let controller = MovieDetailVC.getMovieDetailVC()
+        controller.objMovie = arrMovies[indexPath.row]
+        APP_DELEGATE.navController.pushViewController(controller, animated: true)
     }
     
     func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool)

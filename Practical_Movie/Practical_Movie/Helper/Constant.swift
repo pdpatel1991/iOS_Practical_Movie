@@ -29,7 +29,6 @@ struct Storyboard {
 }
 
 enum CommonMessage: String {
-    case SomethingWorngOnServer = "Can't Connect to Server, Please Try Again Later."
-    case GeneralAlertTitle = "Alert"
-    case NoDataFound = "No data dound."
+    case SomethingWorngOnServer = "Unable to connect the server. Check your connection and try again later!"
+    case GeneralAlertTitle = "Network error"
 }
